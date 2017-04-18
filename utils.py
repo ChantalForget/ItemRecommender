@@ -8,7 +8,7 @@ from item import *
 def createTestSamples():
 	users = []
 	items = []
-	with open("moreusersmorereviews.csv", "r") as filestream:
+	with open("moreusers.csv", "r") as filestream:
 		for line in filestream:
 			currentline = line.split(",")
 			count = 0
